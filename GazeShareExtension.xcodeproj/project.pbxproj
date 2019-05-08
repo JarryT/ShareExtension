@@ -14,7 +14,35 @@
 		DF2B8F3422826A9400126890 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF2B8F3322826A9400126890 /* Assets.xcassets */; };
 		DF2B8F3722826A9400126890 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF2B8F3522826A9400126890 /* LaunchScreen.storyboard */; };
 		DF2B8F3A22826A9400126890 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2B8F3922826A9400126890 /* main.m */; };
+		DF2B8F48228273BD00126890 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2B8F47228273BD00126890 /* ShareViewController.m */; };
+		DF2B8F4B228273BD00126890 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF2B8F49228273BD00126890 /* MainInterface.storyboard */; };
+		DF2B8F4F228273BD00126890 /* ShareExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DF2B8F44228273BD00126890 /* ShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DF2B8F5622827CD700126890 /* UICustiomActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2B8F5522827CD700126890 /* UICustiomActivity.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF2B8F4D228273BD00126890 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF2B8F1C22826A9100126890 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF2B8F43228273BD00126890;
+			remoteInfo = ShareExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DF2B8F53228273BE00126890 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DF2B8F4F228273BD00126890 /* ShareExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		DF2B8F2422826A9100126890 /* GazeShareExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GazeShareExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -28,10 +56,24 @@
 		DF2B8F3622826A9400126890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF2B8F3822826A9400126890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF2B8F3922826A9400126890 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF2B8F44228273BD00126890 /* ShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2B8F46228273BD00126890 /* ShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		DF2B8F47228273BD00126890 /* ShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		DF2B8F4A228273BD00126890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		DF2B8F4C228273BD00126890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF2B8F5422827CD700126890 /* UICustiomActivity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UICustiomActivity.h; sourceTree = "<group>"; };
+		DF2B8F5522827CD700126890 /* UICustiomActivity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICustiomActivity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DF2B8F2122826A9100126890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF2B8F41228273BD00126890 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				DF2B8F2622826A9100126890 /* GazeShareExtension */,
+				DF2B8F45228273BD00126890 /* ShareExtension */,
 				DF2B8F2522826A9100126890 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				DF2B8F2422826A9100126890 /* GazeShareExtension.app */,
+				DF2B8F44228273BD00126890 /* ShareExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +108,8 @@
 				DF2B8F2822826A9100126890 /* AppDelegate.m */,
 				DF2B8F2A22826A9100126890 /* ViewController.h */,
 				DF2B8F2B22826A9100126890 /* ViewController.m */,
+				DF2B8F5422827CD700126890 /* UICustiomActivity.h */,
+				DF2B8F5522827CD700126890 /* UICustiomActivity.m */,
 				DF2B8F2D22826A9100126890 /* Main.storyboard */,
 				DF2B8F3322826A9400126890 /* Assets.xcassets */,
 				DF2B8F3522826A9400126890 /* LaunchScreen.storyboard */,
@@ -72,6 +118,17 @@
 				DF2B8F3022826A9100126890 /* GazeShareExtension.xcdatamodeld */,
 			);
 			path = GazeShareExtension;
+			sourceTree = "<group>";
+		};
+		DF2B8F45228273BD00126890 /* ShareExtension */ = {
+			isa = PBXGroup;
+			children = (
+				DF2B8F46228273BD00126890 /* ShareViewController.h */,
+				DF2B8F47228273BD00126890 /* ShareViewController.m */,
+				DF2B8F49228273BD00126890 /* MainInterface.storyboard */,
+				DF2B8F4C228273BD00126890 /* Info.plist */,
+			);
+			path = ShareExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,15 +141,34 @@
 				DF2B8F2022826A9100126890 /* Sources */,
 				DF2B8F2122826A9100126890 /* Frameworks */,
 				DF2B8F2222826A9100126890 /* Resources */,
+				DF2B8F53228273BE00126890 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DF2B8F4E228273BD00126890 /* PBXTargetDependency */,
 			);
 			name = GazeShareExtension;
 			productName = GazeShareExtension;
 			productReference = DF2B8F2422826A9100126890 /* GazeShareExtension.app */;
 			productType = "com.apple.product-type.application";
+		};
+		DF2B8F43228273BD00126890 /* ShareExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF2B8F50228273BE00126890 /* Build configuration list for PBXNativeTarget "ShareExtension" */;
+			buildPhases = (
+				DF2B8F40228273BD00126890 /* Sources */,
+				DF2B8F41228273BD00126890 /* Frameworks */,
+				DF2B8F42228273BD00126890 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareExtension;
+			productName = ShareExtension;
+			productReference = DF2B8F44228273BD00126890 /* ShareExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -104,6 +180,9 @@
 				ORGANIZATIONNAME = "汤军";
 				TargetAttributes = {
 					DF2B8F2322826A9100126890 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					DF2B8F43228273BD00126890 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
@@ -122,6 +201,7 @@
 			projectRoot = "";
 			targets = (
 				DF2B8F2322826A9100126890 /* GazeShareExtension */,
+				DF2B8F43228273BD00126890 /* ShareExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -137,6 +217,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DF2B8F42228273BD00126890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF2B8F4B228273BD00126890 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -148,10 +236,27 @@
 				DF2B8F2C22826A9100126890 /* ViewController.m in Sources */,
 				DF2B8F3A22826A9400126890 /* main.m in Sources */,
 				DF2B8F2922826A9100126890 /* AppDelegate.m in Sources */,
+				DF2B8F5622827CD700126890 /* UICustiomActivity.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF2B8F40228273BD00126890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF2B8F48228273BD00126890 /* ShareViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF2B8F4E228273BD00126890 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF2B8F43228273BD00126890 /* ShareExtension */;
+			targetProxy = DF2B8F4D228273BD00126890 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DF2B8F2D22826A9100126890 /* Main.storyboard */ = {
@@ -168,6 +273,14 @@
 				DF2B8F3622826A9400126890 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DF2B8F49228273BD00126890 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF2B8F4A228273BD00126890 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -321,6 +434,44 @@
 			};
 			name = Release;
 		};
+		DF2B8F51228273BE00126890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62MW876854;
+				INFOPLIST_FILE = ShareExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jarryTang.GazeShareExtension.ShareExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF2B8F52228273BE00126890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62MW876854;
+				INFOPLIST_FILE = ShareExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jarryTang.GazeShareExtension.ShareExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -338,6 +489,15 @@
 			buildConfigurations = (
 				DF2B8F3E22826A9400126890 /* Debug */,
 				DF2B8F3F22826A9400126890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF2B8F50228273BE00126890 /* Build configuration list for PBXNativeTarget "ShareExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF2B8F51228273BE00126890 /* Debug */,
+				DF2B8F52228273BE00126890 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
