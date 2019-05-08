@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF2B8F2922826A9100126890 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2B8F2822826A9100126890 /* AppDelegate.m */; };
+		DF2B8F2C22826A9100126890 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2B8F2B22826A9100126890 /* ViewController.m */; };
+		DF2B8F2F22826A9100126890 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF2B8F2D22826A9100126890 /* Main.storyboard */; };
+		DF2B8F3222826A9100126890 /* GazeShareExtension.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF2B8F3022826A9100126890 /* GazeShareExtension.xcdatamodeld */; };
+		DF2B8F3422826A9400126890 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF2B8F3322826A9400126890 /* Assets.xcassets */; };
+		DF2B8F3722826A9400126890 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF2B8F3522826A9400126890 /* LaunchScreen.storyboard */; };
+		DF2B8F3A22826A9400126890 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2B8F3922826A9400126890 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF2B8F2422826A9100126890 /* GazeShareExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GazeShareExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2B8F2722826A9100126890 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF2B8F2822826A9100126890 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF2B8F2A22826A9100126890 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DF2B8F2B22826A9100126890 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF2B8F2E22826A9100126890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF2B8F3122826A9100126890 /* GazeShareExtension.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GazeShareExtension.xcdatamodel; sourceTree = "<group>"; };
+		DF2B8F3322826A9400126890 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF2B8F3622826A9400126890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF2B8F3822826A9400126890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF2B8F3922826A9400126890 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF2B8F2122826A9100126890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF2B8F1B22826A9100126890 = {
+			isa = PBXGroup;
+			children = (
+				DF2B8F2622826A9100126890 /* GazeShareExtension */,
+				DF2B8F2522826A9100126890 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF2B8F2522826A9100126890 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF2B8F2422826A9100126890 /* GazeShareExtension.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF2B8F2622826A9100126890 /* GazeShareExtension */ = {
+			isa = PBXGroup;
+			children = (
+				DF2B8F2722826A9100126890 /* AppDelegate.h */,
+				DF2B8F2822826A9100126890 /* AppDelegate.m */,
+				DF2B8F2A22826A9100126890 /* ViewController.h */,
+				DF2B8F2B22826A9100126890 /* ViewController.m */,
+				DF2B8F2D22826A9100126890 /* Main.storyboard */,
+				DF2B8F3322826A9400126890 /* Assets.xcassets */,
+				DF2B8F3522826A9400126890 /* LaunchScreen.storyboard */,
+				DF2B8F3822826A9400126890 /* Info.plist */,
+				DF2B8F3922826A9400126890 /* main.m */,
+				DF2B8F3022826A9100126890 /* GazeShareExtension.xcdatamodeld */,
+			);
+			path = GazeShareExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF2B8F2322826A9100126890 /* GazeShareExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF2B8F3D22826A9400126890 /* Build configuration list for PBXNativeTarget "GazeShareExtension" */;
+			buildPhases = (
+				DF2B8F2022826A9100126890 /* Sources */,
+				DF2B8F2122826A9100126890 /* Frameworks */,
+				DF2B8F2222826A9100126890 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GazeShareExtension;
+			productName = GazeShareExtension;
+			productReference = DF2B8F2422826A9100126890 /* GazeShareExtension.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF2B8F1C22826A9100126890 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "汤军";
+				TargetAttributes = {
+					DF2B8F2322826A9100126890 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = DF2B8F1F22826A9100126890 /* Build configuration list for PBXProject "GazeShareExtension" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF2B8F1B22826A9100126890;
+			productRefGroup = DF2B8F2522826A9100126890 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF2B8F2322826A9100126890 /* GazeShareExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF2B8F2222826A9100126890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF2B8F3722826A9400126890 /* LaunchScreen.storyboard in Resources */,
+				DF2B8F3422826A9400126890 /* Assets.xcassets in Resources */,
+				DF2B8F2F22826A9100126890 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF2B8F2022826A9100126890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF2B8F3222826A9100126890 /* GazeShareExtension.xcdatamodeld in Sources */,
+				DF2B8F2C22826A9100126890 /* ViewController.m in Sources */,
+				DF2B8F3A22826A9400126890 /* main.m in Sources */,
+				DF2B8F2922826A9100126890 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF2B8F2D22826A9100126890 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF2B8F2E22826A9100126890 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF2B8F3522826A9400126890 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF2B8F3622826A9400126890 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF2B8F3B22826A9400126890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF2B8F3C22826A9400126890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF2B8F3E22826A9400126890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62MW876854;
+				INFOPLIST_FILE = GazeShareExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jarryTang.GazeShareExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF2B8F3F22826A9400126890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62MW876854;
+				INFOPLIST_FILE = GazeShareExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jarryTang.GazeShareExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF2B8F1F22826A9100126890 /* Build configuration list for PBXProject "GazeShareExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF2B8F3B22826A9400126890 /* Debug */,
+				DF2B8F3C22826A9400126890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF2B8F3D22826A9400126890 /* Build configuration list for PBXNativeTarget "GazeShareExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF2B8F3E22826A9400126890 /* Debug */,
+				DF2B8F3F22826A9400126890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DF2B8F3022826A9100126890 /* GazeShareExtension.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DF2B8F3122826A9100126890 /* GazeShareExtension.xcdatamodel */,
+			);
+			currentVersion = DF2B8F3122826A9100126890 /* GazeShareExtension.xcdatamodel */;
+			path = GazeShareExtension.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DF2B8F1C22826A9100126890 /* Project object */;
+}
