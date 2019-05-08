@@ -22,9 +22,9 @@
     return self;
 }
 
-- (UIActivityType)activityType{
-    return _type;
-}
+//- (UIActivityType)activityType{
+//    return _type;
+//}
 - (NSString *)activityTitle{
     return _title;
 }
@@ -33,6 +33,9 @@
 }
 - (UIActivityCategory)activityCategory{
     return _activity;
+}
+- (NSURL *)activityUrl{
+    return _url;
 }
 
 @end
